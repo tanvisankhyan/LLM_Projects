@@ -1,8 +1,8 @@
 # LLM_Projects
 A collection of LLM projects.
 
-
-1. Multi-agent Research Artical Writer Using CrewAI
+Project 1:
+# Multi-agent Research Artical Writer Using CrewAI
 
    This project showcases the implementation of a multi-agent system using CrewAI to automate the process of planning, writing, and editing high-quality blog content. Each AI agent is assigned a specialized role, enabling a structured and collaborative content development workflow. This project leverages the capabilities of OpenAI's GPT-3.5-turbo model for natural language understanding and generation.
 
@@ -51,7 +51,6 @@ Task 3: Editing
 
 
 PROJECT 2: 
-
 # AI-Powered Learning Content Generator
 
 This project is an autonomous agent-based platform that automatically generates structured, engaging, and educational content from a single topic input. It is built using [CrewAI](https://github.com/joaomdmoura/crewAI) and designed for applications in learning platforms, microlearning tools, and EdTech environments.
