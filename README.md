@@ -51,7 +51,7 @@ Task 3: Editing
 
 
 PROJECT 2: 
-# AI-Powered Learning Content Generator
+# MultiAgent Learning System
 
 This project is an autonomous agent-based platform that automatically generates structured, engaging, and educational content from a single topic input. It is built using [CrewAI](https://github.com/joaomdmoura/crewAI) and designed for applications in learning platforms, microlearning tools, and EdTech environments.
 
