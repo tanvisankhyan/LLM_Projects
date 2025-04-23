@@ -2,13 +2,50 @@
 A collection of LLM projects.
 
 
-1. AI Alignment with Human Intent (Real-Time Value Learning)
+1. Multi-agent Research Artical Writer Using CrewAI
 
-Problem: One of the most difficult challenges in AI alignment is ensuring that AI systems truly understand and align with human intentions, especially as those intentions evolve.
-Project Idea: Create an AI that can learn human values in real time during its interaction with people. Rather than assuming predefined human values, the AI would actively observe, understand, and adapt to the shifting moral or ethical preferences of its human users. For example, as a user interacts with the system, the AI could adjust its behavior based on feedback or subtle signals indicating human preferences and values.
-Impact: This could revolutionize the way AI systems align with human needs, particularly in long-term, dynamic environments where values are not static but evolve over time.
+   This project showcases the implementation of a multi-agent system using CrewAI to automate the process of planning, writing, and editing high-quality blog content. Each AI agent is assigned a specialized role, enabling a structured and collaborative content development workflow. This project leverages the capabilities of OpenAI's GPT-3.5-turbo model for natural language understanding and generation.
+
+   👥 AI Agents
+
+i. Content Planner
+
+            Role: Research and design a structured content outline.
+            Goal: Develop a detailed content plan tailored to a specific topic.
+            Backstory: Acts as a research and strategy lead, ensuring content relevance and SEO alignment.
+
+ii. Content Writer
+
+            Role: Draft the article based on the content plan.
+            Goal: Generate an insightful, engaging, and accurate blog post.
+            Backstory: Builds on the planner's outline to articulate ideas clearly, with emphasis on tone and coherence.
+
+iii. Editor
+
+            Role: Final proofing and editorial review.
+            Goal: Polish the article for grammar, tone, and organizational voice.
+            Backstory: Ensures the content meets editorial standards and is suitable for publication.
 
 
-2. ImprovAI
+   🧩 Tasks & Workflow
 
-A tool that generates funny and creative dialogue, jokes, or improv scenarios based on user inputs (e.g., settings, characters, themes).
+
+Task 1: Content Planning
+
+          Analyze trends and define the target audience.
+          Create a detailed blog outline including SEO elements.
+          Output: Structured content plan document.
+
+Task 2: Content Writing
+
+          Draft the blog post based on the plan.
+          Integrate SEO keywords naturally and format for readability.
+          Output: Complete blog post in Markdown format.
+
+Task 3: Editing
+
+           Perform final editorial review and polish the article.
+           Ensure tone consistency and grammatical correctness.
+           Output: Publication-ready Markdown blog post.
+
+
